@@ -1,0 +1,45 @@
+<h2>REGISTRATION FORM</h2>
+<div class ="jumbotron">
+    <div class ="container">
+        <div class = "row">
+            <div class = "col-md-6">
+                <form>
+                    <div class = "form-group">
+                        <label for = "firstname">FIRSTNAME</label>
+                        <input type = "text" required class ="form-control" name = "firstname" [(ngModel)] = "firstname">
+                        
+                    </div>
+                    <div class ="form-group">
+                        <label for = "lastname"> LASTNAME</label>
+                        <input type = "lastname" requited class = "form-control" name = "lastname" [(ngModel)] = "lastname" >
+                    </div>
+
+                    <div class ="form-group">
+                        <label for = "username"> PICK A USERNAME</label>
+                        <input type = "username" requited class = "form-control" name = "username" [(ngModel)] = "username" >
+                    </div>
+
+
+                    <div class ="form-group">
+                        <label for = "email"> EMAIL</label>
+                        <input type = "email" requited class = "form-control" name = "email" [(ngModel)] = "email" >
+                    </div>
+
+                    <div class ="form-group">
+                        <label for = "password"> PASSWORD</label>
+                        <input type = "password" requited class = "form-control" name = "password" [(ngModel)] = "password" >
+                    </div>
+                    <button class = "btn btn-outline-warning" (click)= "signUp()"> REGISTER </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <style>
+        h2{
+            font-size: medium;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left:25%;
+        }
+    </style>
